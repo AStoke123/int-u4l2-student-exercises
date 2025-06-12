@@ -13,7 +13,7 @@ submitButton.addEventListener("click", function() {
     // 2. Below write your sentences! 
    // messages.myName.value;
     // - Have them show up in the div with class "results".
-    results.innerHTML = "My name is " + myName + ", I am feeling " + mood + ", and I love to eat " + food + ", and I live in " + cityValue;
+    results.innerHTML = "<h1>My name is " + myName + ", I am feeling " + mood + ", and I love to eat " + food + ", and I live in " + cityValue + "</h1>";
     // - Example paragraph: "My name is (myName). I'm feeling (mood) and I absolutely lovveeee eating (food) 😍..."
     // - Try placing your sentences into <p> or <li> tags.
 

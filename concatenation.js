@@ -9,9 +9,11 @@ submitButton.addEventListener("click", function() {
     let birthYear = document.querySelector(".year").value;
     let age = 2023 - birthYear; // update to 2024, if necessary
     // 1. Declare a variable to save the value of the city the user is from.
-
+    let cityValue = document.querySelector(".city").value;
     // 2. Below write your sentences! 
+   // messages.myName.value;
     // - Have them show up in the div with class "results".
+    results.innerHTML = "My name is " + myName + ", I am feeling " + mood + ", and I love to eat " + food + ", and I live in " + cityValue;
     // - Example paragraph: "My name is (myName). I'm feeling (mood) and I absolutely lovveeee eating (food) 😍..."
     // - Try placing your sentences into <p> or <li> tags.
 
